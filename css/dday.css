@@ -1,0 +1,38 @@
+#Dday__box {
+    text-align: center;
+    height:40%;
+    box-sizing: border-box;
+    width:90%;
+    border-radius: 30px;
+    margin-bottom: 20%;
+    padding: 20px;
+}
+
+#Dday__box h1, h2 {
+    margin: 0 auto;
+    color: #585858;
+}
+
+#day__input {
+    color: rgb(77, 76, 76);
+    margin: 10px auto 20px;
+    width: 80%;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+    background: #b4a8d4;
+    box-shadow: inset 6px 6px 12px #bbadcc,
+                inset -6px -6px 12px #fde9ff;
+}
+
+#day__input:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: inset 6px 6px 12px #cac9cc,
+                inset -6px -6px 12px #fff;
+}
+
+#Dday__title {
+    font-size: 18px;
+}

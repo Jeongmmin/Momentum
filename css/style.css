@@ -1,9 +1,243 @@
+body {
+  /* color: white; */
+  background-color: #e0e0e0;
+  /* background-color: #dccbf0; */
+  /* background-color: #dccbf0; */
+  /* background-color: #c8bbec; */
+  /* background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: "PT Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  align-items: center;
+}
+
+.modal_overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 200;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(17px);
+}
+
 .hidden {
+  display: none;
+  transition: display 0.3s ease-in-out;
+}
+
+.box {
+  /* border-radius: 50px;
+  background: #dccbf0;;
+  box-shadow:  6px 6px 12px #bbadcc,
+            -6px -6px 12px #fde9ff;; */
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+}
+
+.down__box {
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #bebebe, inset -7px -7px 14px #ffffff;
+}
+
+.btn {
+  border: none;
+  /* border-radius: 50px;
+  background: linear-gradient(145deg, #c6b7d8, #ebd9ff);
+  box-shadow:  5px 5px 14px #b9abca,
+              -5px -5px 14px #ffebff; */
+  border-radius: 30px;
+  background: linear-gradient(145deg, #b4a8d4, #d6c8fd);
+  box-shadow: 8px 8px 16px #8c83a5, -8px -8px 16px #fff3ff;
+  color: white;
+  font-weight: 700;
+}
+
+.btn:hover {
+  border-radius: 30px;
+  background: #c8bbec;
+  box-shadow: inset 5px 5px 19px #8c83a5, inset -5px -5px 19px #fff3ff;
+  cursor: pointer;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#first_greeting {
+  justify-content: center;
+  align-items: center;
+}
+
+#login_input {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+#login_input:focus {
+  outline: none;
+  background: none;
+}
+
+#loginBtn {
   display: none;
 }
 
+/* 로그인 한 뒤 */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+#logout__box {
+  display: flex;
+  flex-wrap: 1;
+}
+
+.main__section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#left__box {
+  height: 90%;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#clock__box {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  border-radius: 30px;
+  height: 20%;
+  box-sizing: border-box;
+  color: rgb(62, 63, 65);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+#clock {
+  color: rgb(62, 63, 65);
+  font-size: 30px;
+}
+
+#clock__box h2,
+h3 {
+  margin: 0 auto;
+  color: #585858;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 90%;
+  height: 15%;
+  padding: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+  font-size: 16px;
+}
+
+.links button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#center__box {
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 90%;
+  display: flex;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#greeting__box {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10%;
+  padding: 10px;
+  height: 20%;
+}
+
+#greeting {
+  color: #585858;
+  font-size: 30px;
+}
+
+#greeting__box h1 {
+  box-sizing: border-box;
+  margin: 0;
+}
+.right__box {
+  height: 90%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#logoutBtn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(77, 76, 76);
+}
+
+#weather {
+  flex-wrap: 1;
+  text-align: center;
+  padding: 12px;
+  color: rgb(88, 88, 88);
+}
+
 img {
-  /* background-size: cover; */
   position: absolute;
   top: 0;
   left: 0;
@@ -13,6 +247,24 @@ img {
   animation: fadeIn 0.5s linear;
 }
 
-body {
-  color: white;
+footer {
+  box-sizing: border-box;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 15%;
+  text-align: center;
+  align-items: center;
+}
+
+#quote__box {
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+}
+
+#quote__box span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

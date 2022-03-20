@@ -1,0 +1,55 @@
+#todos {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    border-radius: 30px;
+    float: right;
+}
+
+#todo__input {
+    color: rgb(77, 76, 76);
+    margin: 10px auto 20px;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background: #b4a8d4;
+    box-shadow: inset 6px 6px 12px #bbadcc,
+        inset -6px -6px 12px #fde9ff;
+
+}
+
+#todo__input:focus {
+    background: none;
+    outline: none;
+    background: #fff;
+    box-shadow: inset 6px 6px 12px #cac9cc,
+        inset -6px -6px 12px #fff;
+
+}
+
+#todos button {
+    color: white;
+    border: none;
+    float: right;
+    border-radius: 50%;
+}
+
+#todos ul {
+    margin: 10px 0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#todos li {
+    display: block;
+    justify-content: space-between;
+    text-align: left;
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px 20px;
+    color: rgb(88, 86, 88);
+}
