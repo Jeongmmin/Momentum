@@ -15,6 +15,7 @@
     <script src="./js/weather.js" defer></script>
     <script src="./js/todos.js" defer></script>
     <script src="./js/d_day.js" defer></script>
+    <script src="./js/background.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
@@ -22,16 +23,31 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar box">
         <!-- weather -->
         <div id="weather" class="box nav">
             <span>weather</span>&nbsp;
             <span></span>
         </div>
 
-        <div class="title__box">
-            <h1>Momentum</h1>
+        <div class="title__box" class="box">
+            <h1 class="hidden" id="greeting"></h1>
         </div>
+
+        <!-- <div id="greeting__box" class="box">
+            <h1 class="hidden" id="greeting"></h1>
+        </div> -->
+
+        <!-- links -->
+            <!-- <div class="links box">
+                <button class="btn"><a href="https://www.google.co.kr">G</a></button>
+                <button class="btn">
+                    <a href="https://nomadcoders.co/" target="_blank">N</a>
+                </button>
+                <button class="btn">
+                    <a href="https://www.youtube.com/?gl=KR&hl=kO" target="_blank">Y</a>
+                </button>
+            </div> -->
 
         <!-- logoutBtn -->
         <div class="logout__box">
@@ -52,18 +68,22 @@
         <div id="left__box">
             <!-- D-day -->
             <div id="Dday__box" class="box">
-                <input type="date" id="day__input" />
+                <input type="date" id="day__input" placeholder="picked today"/>
                 <h2 class="js-clock">D-Day</h2>
             </div>
 
-            <!-- timer-box -->
-            <div class="box" id="clock__box">
-                <h2 id="clock">00:00:00</h2>
-                <h3 id="date"></h3>
+            <!-- img-box -->
+            <div class="box" id="img__box">
             </div>
 
+            <!-- timer-box -->
+            <!-- <div class="box" id="clock__box">
+                <h2 id="clock">00:00:00</h2>
+                <h3 id="date"></h3>
+            </div> -->
+
             <!-- links -->
-            <div class="links box">
+            <!-- <div class="links box">
                 <button class="btn"><a href="https://www.google.co.kr">G</a></button>
                 <button class="btn">
                     <a href="https://nomadcoders.co/" target="_blank">N</a>
@@ -71,13 +91,20 @@
                 <button class="btn">
                     <a href="https://www.youtube.com/?gl=KR&hl=kO" target="_blank">Y</a>
                 </button>
-            </div>
+            </div> -->
+
+            
         </div>
 
         <div class="center__box">
             <!-- greeting -->
-            <div id="greeting__box" class="box">
+            <!-- <div id="greeting__box" class="box">
                 <h1 class="hidden" id="greeting"></h1>
+            </div> -->
+
+            <div class="box" id="clock__box">
+                <h2 id="clock">00:00:00</h2>
+                <h3 id="date"></h3>
             </div>
 
             <!-- music-box -->

@@ -16,19 +16,18 @@
     padding: 10px;
     border: none;
     border-radius: 30px;
-    background: #b4a8d4;
-    box-shadow: inset 6px 6px 12px #bbadcc,
-        inset -6px -6px 12px #fde9ff;
+    background: #fff;
+    box-shadow: inset 6px 6px 12px #cac9cc,
+        inset -6px -6px 12px #fff;
 
 }
 
 #todo__input:focus {
     background: none;
     outline: none;
-    background: #fff;
-    box-shadow: inset 6px 6px 12px #cac9cc,
-        inset -6px -6px 12px #fff;
-
+    background: #b4a8d4;
+    box-shadow: inset 6px 6px 12px #bbadcc,
+        inset -6px -6px 12px #fde9ff;
 }
 
 #todos button {
