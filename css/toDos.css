@@ -1,11 +1,15 @@
+.todo__outer {
+    padding: 10px;
+}
+
 #todos {
     box-sizing: border-box;
     padding: 10px;
-    width: 90%;
+    width: 95%;
     height: 100%;
+    margin: 0 auto;
     text-align: center;
-    border-radius: 30px;
-    float: right;
+    /* border-radius: 30px; */
 }
 
 #todo__input {
@@ -15,6 +19,7 @@
     text-align: center;
     padding: 10px;
     border: none;
+    font-size: 16px;
     border-radius: 30px;
     background: #fff;
     box-shadow: inset 6px 6px 12px #cac9cc,
