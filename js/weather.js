@@ -16,8 +16,8 @@ function onGeoOk(position) {
         
 
         city.innerHTML = data.name;
-        weather.innerHTML = `${weatherIcon} / ${data.weather[0].main} / ${data.main.temp}°C`;
-        // weather.innerHTML = `${data.weather[0].main} / ${data.main.temp}°C`;
+        // weather.innerHTML = `${weatherIcon} / ${data.weather[0].main} / ${data.main.temp}°C`;
+        weather.innerHTML = `${data.weather[0].main} / ${data.main.temp}°C`;
         // ${data.weather[0].icon}
         });
 }
