@@ -17,9 +17,7 @@
   
 
   [🔗 Momentum-App](https://jeongmmin.github.io/Momentum/)
-     
-  
-
+   
   
 </div>
 
@@ -38,9 +36,9 @@
 <img src="https://img.shields.io/badge/Neumorphism-2b55e5?style=for-the-badge&logo=NGINX&logoColor=white"/> &nbsp 
 <br/>
 <br/>
-<!-- <p align="center">
-<img src="https://user-images.githubusercontent.com/82005305/156791554-2a6b9232-251c-46d9-b93a-7dfe158be7ba.gif">
-</p>  -->
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82005305/161005521-73af8206-ecdc-4ace-afde-b3fac31e9f7b.gif">
+</p> 
 
 
 
