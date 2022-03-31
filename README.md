@@ -1,10 +1,12 @@
 # 🌃 Momentum-App
 
 > 노마드코더 2주챌린지를 통해 구현한 HTML, CSS, JavaScript로 구현한 Momentum앱입니다.  
-Google의 Momentum 페이지를 레퍼런스로 만들어졌으며 **D-day, 명언, 실시간 시계, 날씨 및 위치, 유튜브 영상, Todo List**가 포함되어 있습니다.  
+[Google의 Momentum 페이지](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko_KR)를 레퍼런스로 만들어졌으며 **D-day, 명언, 실시간 시계, 날씨 및 위치, 유튜브 영상, Todo List**가 포함되어 있습니다.  
 **LocalStorage**에 사용자 데이터를 저장하여 새로고침을 하더라도 데이터가 사라지지 않도록 설정하였습니다.    
 그 밖에도 새로고침이 될 때마다 사진, 명언이 랜덤으로 변경될 수 있도록 구현하였습니다.
 
+
+<br/>
 <br/>
 
 ## 📌 배포 사이트
@@ -21,18 +23,19 @@ Google의 Momentum 페이지를 레퍼런스로 만들어졌으며 **D-day, 명�
   
 </div>
 
- 
+<br/>
+<br/>
 
 ## 📝 Skill & Preview
 <br/>
 <br/>
 <p align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/Open Weather Api-000000?style=flat-square&logo=Wish&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=YouTube&logoColor=white"/> &nbsp 
-<img src="https://img.shields.io/badge/Neumorphism-2b55e5?style=flat-square&logo=NGINX&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/Open Weather Api-000000?style=for-the-badge&logo=Wish&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/Neumorphism-2b55e5?style=for-the-badge&logo=NGINX&logoColor=white"/> &nbsp 
 <br/>
 <br/>
 <!-- <p align="center">
@@ -41,6 +44,7 @@ Google의 Momentum 페이지를 레퍼런스로 만들어졌으며 **D-day, 명�
 
 
 
+<br/>
 <br/>
 
 ## 🔍 기능설명
