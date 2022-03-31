@@ -1,6 +1,6 @@
 # 🌃 Momentum-App
 
-> 노마드코더 2주챌린지를 통해 구현한 HTML, CSS, JavaScript로 구현한 Momentum앱입니다.  
+> 노마드코더 2주챌린지를 통해 HTML, CSS, JavaScript로 구현한 Momentum앱입니다.  
 [Google의 Momentum 페이지](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko_KR)를 레퍼런스로 만들어졌으며 **D-day, 명언, 실시간 시계, 날씨 및 위치, 유튜브 영상, Todo List**가 포함되어 있습니다.  
 **LocalStorage**에 사용자 데이터를 저장하여 새로고침을 하더라도 데이터가 사라지지 않도록 설정하였습니다.    
 그 밖에도 새로고침이 될 때마다 사진, 명언이 랜덤으로 변경될 수 있도록 구현하였습니다.
