@@ -11,15 +11,12 @@
 
 ## 📌 배포 사이트
 <div align="center">   
-    
 <br/>    
-💡 사이트 이동하기 💡    
+<a href="https://jeongmmin.github.io/Momentum/" target="_blank"><img src="https://img.shields.io/badge/ Momentum App-4285F4?style=flat-square&logo=Monster&logoColor=white"/></a>
 <br/>    
+(ctrl + click시 새창열기 가능)    
     
-    
-    
-[🔗 Momentum-App](https://jeongmmin.github.io/Momentum/)
-   
+<!-- [🔗 Momentum-App](https://jeongmmin.github.io/Momentum/) -->
   
 </div>
 
@@ -39,12 +36,12 @@
 <br/>
 <br/>
 <p align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/Open Weather Api-000000?style=for-the-badge&logo=Wish&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/> &nbsp 
-<img src="https://img.shields.io/badge/Neumorphism-2b55e5?style=for-the-badge&logo=NGINX&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/Open Weather Api-000000?style=flat-square&logo=Wish&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=YouTube&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/Neumorphism-2b55e5?style=flat-square&logo=NGINX&logoColor=white"/> &nbsp 
 <br/>
 <br/>
 <p align="center">
