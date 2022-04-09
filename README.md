@@ -12,11 +12,13 @@
 ## 📌 배포 사이트
 <div align="center">   
     
+<br/>    
+💡 사이트 이동하기 💡    
+<br/>    
     
-  💡 사이트 이동하기 💡  
-  
-
-  [🔗 Momentum-App](https://jeongmmin.github.io/Momentum/)
+    
+    
+[🔗 Momentum-App](https://jeongmmin.github.io/Momentum/)
    
   
 </div>
@@ -47,29 +49,29 @@
 
 ## 🔍 기능설명
 
-### Neumorphism
+### 1. Neumorphism
 
 - Neumorphism CSS를 통해 음영감으로 div와 button에 음영감을 주어서 표현했습니다.
 
 
-### 버튼
+### 2. 버튼
 
 - logout : 저장된 사용자의 모든 데이터가 사라지고 초기 화면으로 진입
 - Change🎨 : 배경색상을 랜덤으로 변경할 수 있음
 
-### D-Day
+### 3. D-Day
 
 - 사용자가 날짜를 선택하면 아래 D-day창에 남은 날짜가 표시됩니다.
 
-### 실시간 시계
+### 4. 실시간 시계
 
 - 실시간으로 사용자의 시간, 날짜를 표시해 줌
 
-### 날씨 & 위치
+### 5 .날씨 & 위치
 
 - 사용자가 동의할 경우 사용자의 위치를 파악하여 날씨데이터와 위치 데이터를 파악하여 표시함
 
-### Todo List
+### 6. Todo List
 
 - 할 일 목록을 작성하고, 삭제할 수 있음 (새로고침해도 데이터가 저장 됨)
   
