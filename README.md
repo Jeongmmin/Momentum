@@ -12,9 +12,14 @@
 ## 📌 배포 사이트
 <div align="center">   
 <br/>    
+💡 사이트 이동하기 💡        
+<br/>
+<br/>
 <a href="https://jeongmmin.github.io/Momentum/" target="_blank"><img src="https://img.shields.io/badge/ Momentum App-4285F4?style=flat-square&logo=Monster&logoColor=white"/></a>
-<br/>    
+<br/>
+<br/>
 (ctrl + click시 새창열기 가능)    
+      
     
 <!-- [🔗 Momentum-App](https://jeongmmin.github.io/Momentum/) -->
   
